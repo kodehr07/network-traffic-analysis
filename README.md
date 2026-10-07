@@ -36,8 +36,36 @@ Reviewed ICMP echo requests and replies to understand basic connectivity testing
 ### 5. ARP Analysis
 Examined ARP traffic to understand how devices resolve IPv4 addresses to MAC addresses on a local network.
 
+
 ## Screenshots
-Evidence is available in the `screenshots/` folder.
+
+### 1. Nmap Port Scan
+![Nmap Port Scan](screenshots/01_Windows_Nmap_port_scan.png)
+
+### 2. Nmap Service Version Detection
+![Nmap Service Detection](screenshots/02_Nmap_service_version_detection.png)
+
+### 3. DNS Query
+![Wireshark DNS Query](screenshots/03_Wireshark_DNS_query.png)
+
+### 4. DNS Response
+![Wireshark DNS Response](screenshots/04_Wireshark_DNS_response.png)
+
+### 5. TCP and TLS Analysis
+![Wireshark TCP TLS](screenshots/05_Wireshark_TCP_TLS.png)
+
+### 6. ICMP Ping Analysis
+![Wireshark ICMP Ping](screenshots/06_Wireshark_ICMP_ping.png)
+
+### 7. ARP Request Analysis
+![Wireshark ARP Request](screenshots/07_Wireshark_ARP_request.png)
+
+### 8. Telnet Packet Analysis
+![Wireshark Telnet Packets](screenshots/08_Wireshark_Telnet_packets.png)
+
+### 9. Linux ARP Table
+![Linux ARP Table](screenshots/09_Linux_ARP_table.png)
+
 
 ## Key Takeaways
 - Developed familiarity with Wireshark packet capture and filtering
